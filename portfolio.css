@@ -1,0 +1,275 @@
+/* This is the CSS coding for Na Yang's Profile */
+
+body{
+		background-color:#ffffff;
+		font-family:Verdana, Arial, sans-serif;
+		color:#666666;
+		}
+*{
+	box-sizing:border-box;
+	padding-right:10px;
+	}
+
+
+h1{
+		background-color:#6fdfd6;       			 /* hex code for a shade of blue */
+		color:#000000;
+		font-family: Times Roman, serif;
+		font-weight:100%;
+		text-align:center;
+		line-height:500%;
+		background-image:url(images/snowman6.jpg);
+		background-position:center;
+		margin-bottom:0;
+		margin-left:45px;
+		margin-right:41px;
+
+		}
+		
+
+h2{
+		background-color:#A0522D;       			 /* hex code for a shade of brown */
+		color:#FFFFFF;
+		font-family: Times Roman, serif;
+		line-height:200%;
+		margin-top:0;
+		margin-right:43px;
+		width:auto;
+		
+		}
+
+h3{
+		background-color:#A0522D;       			 /* hex code for a shade of brown */
+		color:#FFFFFF;
+		font-family: Times Roman, serif;
+		line-height:100%;
+		margin-left:0;
+		margin-right:43px;		
+		}
+		
+h4{
+		color:#000000;
+		}
+		
+
+nav{
+		background-color:#487a8c;
+		font-weight:bold;
+		padding:20px 5px 0 20px;
+		float:left;
+		width:90.5%;
+		margin-left:45px;
+		}
+		
+		
+nav a{
+		text-decoration:none;
+		
+		}
+	
+	
+nav ul{
+
+		list-style-type:none;
+		margin:auto;
+		padding-left:0;
+		padding-bottom:10px;
+		padding-right:50px;
+		height:100%;
+
+		
+		}
+		
+nav a:link{
+			color:#213942;
+			}
+nav a:visited{
+			color:#344873;
+			}
+nav a:hover{
+			color:#ffffff;
+			}
+nav a:active{
+			color:#000000;
+			}
+			
+			
+.resort
+	{
+		font-size:1.2em;
+		color:#000033;
+		}
+			
+			
+#wrapper{
+
+		background-color:gray;
+		min-width:700px;
+		max-width:1024px;
+		box-shadow: -5px -5px 10px 0px rgba(0,0,0,0.75);
+		margin-left: auto;
+    	margin-right: auto;
+     	width:80%;
+		}
+			
+main{
+		padding-left:170px;
+		padding-top:10px;
+		padding-bottom:20px;
+		padding-right:20px;
+		margin-left:auto;
+		margin-right:auto;
+		}
+			
+p{
+	color:#000000;
+	}
+
+li{
+	color:#000000;
+	}
+
+
+
+.images{
+		width:50%;
+		margin:auto;
+		padding:auto;
+		}
+		
+		
+		
+iframe:focus { 
+  		outline: none;
+		}
+
+iframe[seamless] { 
+	  display: block;
+		}
+
+
+
+footer
+	{
+		font-size:.7em;
+		font-style:italic;
+		text-align:center;
+		padding:5px;
+		margin-left:170px;
+		background-color:gray;
+		color:white;
+		
+	}
+	
+	
+label{
+		color:#000000;
+		float:left;
+		width:8em;
+		padding-right:1em;
+		
+		}
+		
+input,
+textarea{
+		
+		margin-bottom:1em;
+		display:block;
+		
+		}
+		
+id,
+mySubmit{
+			display:block;
+			margin:10em;
+			background-color:lightgray;
+			
+			}
+
+
+/* this is for tablet view */ 
+@media only screen and (max-width: 1024px){
+	 body{
+			margin:0;
+			padding:0;
+			background-image:none;
+			}
+
+	#wrapper{
+			min-width:0;
+			width:auto;
+			box-shadow:none;
+			}
+
+	h1{		
+			margin:0;
+			}
+
+	nav{
+			float:none;
+			width:auto;
+			padding:0.5em;
+			}
+
+	nav li{
+			display:inline;
+			}
+	nav a{
+			padding:1em;
+			}
+
+	main{
+			margin-left:0;
+			padding:1em;
+			font-size:90%;
+			
+			}
+	footer{
+			margin:0;
+			}
+
+}
+
+/* this is for mobile device view */ 
+@media only screen and (max-width: 768px){
+
+	nav{
+		padding:0;
+			}
+	nav ul{
+		margin:0;
+		padding:0;
+			}
+	nav li{
+		display:block;
+		margin:0;
+		padding:0;
+			}
+
+	nav a{
+		display:block;
+		border-bottom: 1px solid;
+		padding:0.2em
+		font-size:1.3em;
+
+			}
+	h1{
+		font-size:1.5em;
+		padding-left:0.3em;
+		height:100%;
+			}
+	main{
+		padding:auto;
+			}
+
+	footer{
+		padding:0;
+			}
+
+
+}
+
+
+
+
+
