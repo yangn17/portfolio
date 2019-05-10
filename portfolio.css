@@ -1,7 +1,7 @@
 /* This is the CSS coding for Na Yang's Profile */
 
 body{
-		background-color:#ffffff;
+		background-color:#e3e1df;
 		font-family:Verdana, Arial, sans-serif;
 		color:#666666;
 		}
@@ -33,7 +33,7 @@ h2{
 		font-family: Times Roman, serif;
 		line-height:200%;
 		margin-top:0;
-		margin-right:43px;
+
 		width:auto;
 		
 		}
@@ -57,7 +57,7 @@ nav{
 		font-weight:bold;
 		padding:20px 5px 0 20px;
 		float:left;
-		width:90.5%;
+		width:100%;
 		margin-left:45px;
 		}
 		
@@ -101,18 +101,10 @@ nav a:active{
 		}
 			
 			
-#wrapper{
 
-		background-color:gray;
-		min-width:700px;
-		max-width:1024px;
-		box-shadow: -5px -5px 10px 0px rgba(0,0,0,0.75);
-		margin-left: auto;
-    	margin-right: auto;
-     	width:80%;
-		}
 			
 main{
+		max-width:1000;
 		padding-left:170px;
 		padding-top:10px;
 		padding-bottom:20px;
@@ -155,7 +147,7 @@ footer
 		font-style:italic;
 		text-align:center;
 		padding:5px;
-		margin-left:170px;
+		margin:auto;
 		background-color:gray;
 		color:white;
 		
@@ -195,11 +187,6 @@ mySubmit{
 			background-image:none;
 			}
 
-	#wrapper{
-			min-width:0;
-			width:auto;
-			box-shadow:none;
-			}
 
 	h1{		
 			margin:0;
