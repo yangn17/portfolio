@@ -16,9 +16,9 @@ h1{
 		color:#000000;
 		font-family: Times Roman, serif;
 		font-weight:100%;
-		text-align:center;
+		text-align:left;
 		line-height:500%;
-		background-image:url(images/snowman4.jpg);
+		background-image:url(images/bluemountain3.jpg);
 		background-position:right;
 		background-repeat:no-repeat;
 		margin-bottom:0;
@@ -193,7 +193,7 @@ mySubmit{
 			}
 
 
-	h1{		
+	h1{		background-image:none;
 			margin:0;
 			}
 
@@ -214,6 +214,7 @@ mySubmit{
 			margin-left:0;
 			padding:1em;
 			font-size:90%;
+			max-width:15000;
 			
 			}
 	footer{
@@ -252,6 +253,7 @@ mySubmit{
 			}
 	main{
 		padding:auto;
+		max-width:auto;
 			}
 
 	footer{
